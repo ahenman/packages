@@ -1,44 +1,94 @@
-# Django
-django==1.8.3
+# Bleeding edge Django
+django==1.9.1
 
 # Configuration
-django-environ==0.3.0
+django-environ==0.4.0
 django-secure==1.0.1
-whitenoise==1.0.6
+whitenoise==2.0.6
+
 
 # Forms
-django-braces==1.8.0
-django-crispy-forms==1.4.0
-django-floppyforms==1.4.1
+django-braces==1.8.1
+django-crispy-forms==1.6.0
+django-floppyforms==1.6.0
 
 # Models
-django-model-utils==2.2
+django-model-utils==2.3.1
 
 # Images
-Pillow==2.8.1
+Pillow==3.1.0
 
 # For user registration, either via email or social
 # Well-built with regular release cycles!
-django-allauth==0.19.1
+django-allauth==0.24.1
 
 # For the persistence stores
-psycopg2==2.6
+psycopg2==2.6.1
 
 # Unicode slugification
 unicode-slugify==0.1.3
-django-autoslug==1.8.0
+django-autoslug==1.9.3
 
 # Time zones support
-pytz==2015.4
+pytz==2015.6
 
 # IPython
 ipython
 
 # Cronjob scheduling
-django-kronos==0.7
+django-kronos==0.8
 
 # Celery
-celery==3.1.18
+celery==3.1.20
 
-# Dajax
-django-dajaxice==0.7
+# Bootstrap Pagination
+django-bootstrap-pagination==1.5.1
+
+# Beautiful Soup
+beautifulsoup4==4.4.1
+
+# xhtml2pdf
+xhtml2pdf==0.0.6
+
+# django-xhtml2pdf
+django-xhtml2pdf==0.0.3
+
+# workdays
+workdays==1.4
+
+# dateutil
+python-dateutil==2.4.2
+
+# requests
+requests==2.8.1
+pyopenssl==0.15.1
+ndg-httpsclient==0.4.0
+pyasn1==0.1.9
+
+# memcached
+python-memcached==1.57
+
+# Local development dependencies go here
+coverage==4.0
+Sphinx
+django-extensions==1.5.9
+Werkzeug==0.10.4
+
+# django-debug-toolbar that works with Django 1.5+
+django-debug-toolbar==1.4
+
+# Django silk - db profiling
+django-silk==0.5.6
+
+# Pro-tip: Try not to put anything here. There should be no dependency in
+#     production that isn't in development.
+
+# WSGI Handler
+# ------------------------------------------------
+gevent==1.0.2
+gunicorn==19.3.0
+
+# Static and Media Storage
+# ------------------------------------------------
+boto==2.38.0
+django-storages-redux==1.3
